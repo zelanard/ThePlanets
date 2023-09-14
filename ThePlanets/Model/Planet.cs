@@ -5,7 +5,7 @@
     /// </summary>
     public class Planet
     {
-        #region Properties
+        #region Attributes & Properties
         private string _name;
         private float _mass;
         private int _diameter;
