@@ -9,7 +9,10 @@ namespace ThePlanets.Control
     internal class Observatory
     {
         private SolarSystem _system;
-
+        
+        /// <summary>
+        /// Starts the app.
+        /// </summary>
         public void Start()
         {
             _system = new SolarSystem();
